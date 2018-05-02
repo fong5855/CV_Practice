@@ -4,7 +4,6 @@ import sys
 import numpy as np
 import time
 
-
 # generate by visual studio
 # lib = windll.LoadLibrary("ReadAbs_Dll.dll")
 # generate by cmake
