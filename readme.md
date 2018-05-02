@@ -9,16 +9,16 @@ The 3D object processing often lead to large amount of computation. To make this
 
 
 ## File explain:
-The 3D objects is store as XXX.abs file.  
+The 3D object is store as XXX.abs file.(due to license, I cannot put here)  
 
 The abs folder is a decoder for abs format.  
 The CMake can generate a dynamic link libaray (dll) for other language or other platform.  
 
 The python folder is a demo for use dll library.  
 
-
-#### Origianl point cloud
-![](https://)
-#### Project them to 2D image (depth map)
-![](https://)
-#### Please try to rotate (any direction) the object and project it to 2D depth map. The output depth map should contain the rotation information(ex: £cx, £cy, £cz).
+## GOAL
+#### 1. Display Original point cloud in 3D space (Need a good cpu or gpu, if your device cannot display you can skip it)
+![](doc/face.PNG)
+#### 2. Project to 2D image (depth map)
+![](doc/depth_map.jpg)
+#### 3. Try to rotate (any direction) the object and project it to 2D depth map. The output depth map should contain the rotation information(ex: £cx, £cy, £cz).
