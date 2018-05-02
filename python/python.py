@@ -46,13 +46,13 @@ def demo():
     print(message)
     message = "You can see the (f,x,y,z) are 480 * 640 array"
     print(message)
-    print("the shape of f, ", f.shape)
-    print("the shape if z, ", z.shape)
+    print("the shape of f ", f.shape)
+    print("the shape if z ", z.shape)
 
     message = "but not evey point are valid"
     print(message)
     print("if f is ", f[0][0])
-    print("if x,y,z is ", x[0][0], y[0][0], z[0][0])
+    print("the x,y,z will be ", x[0][0], y[0][0], z[0][0])
     
     print("You should handle the NULL points first")
 
