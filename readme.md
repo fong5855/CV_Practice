@@ -21,4 +21,4 @@ The python folder is a demo for use dll library.
 ![](doc/face.PNG)
 #### 2. Project to 2D image (depth map)
 ![](doc/depth_map.png)
-#### 3. Try to rotate (any direction) the object and project it to 2D depth map. The output depth map should contain the rotation information(ex: £cx, £cy, £cz).
+#### 3. Try rotating the object (in any direction, you can also move the camera and the projection plane) and project it to a 2D depth map. The output depth map should contain rotation information (eg, £cx, £cy, £cz).
